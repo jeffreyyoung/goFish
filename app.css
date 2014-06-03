@@ -1,0 +1,32 @@
+﻿* {
+    font-family: 'Comic Sans MS', cursive;
+}
+
+.card {
+    float: left;
+    border: solid 1px gray;
+    width: 90px;
+    height: 130px;
+    text-align: center;
+    border-radius: 5px;
+    margin-left: 10px;
+    margin-top: 10px;
+}
+
+.opp {
+    background-color: lavender;
+}
+
+.mine:hover {
+    cursor: pointer;
+    background-color:antiquewhite;
+}
+
+#go-fish-game > div {
+    overflow: auto;
+    margin: 10px auto;
+}
+
+.draw {
+    background-color: lightskyblue;
+}
